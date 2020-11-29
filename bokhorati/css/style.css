@@ -1,0 +1,158 @@
+.page-body
+{
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 15px;
+    font-family: 'El Messiri', sans-serif;
+    background-color: #fbfbfb;
+}
+a
+{
+    transition: ease all 0.5s;
+}
+
+h1
+{
+    color: #7a3c07;
+    font-weight: bold;
+}
+
+/* header */
+header
+{
+    padding-top: 15px;
+}
+header a
+{
+    color:#ae6e4a;
+}
+
+/* navbar */
+
+.navigationbar .navbar-default
+{
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+.navigationbar .navbar-default .navbar-header
+{
+    float: left;
+}
+
+.navigationbar .navbar-default .navbar-nav>li>a
+{
+    padding:30px 55px;
+    font-size: 21px;
+    border-left: 1px solid #e7e7e7;
+    background: #fbfbfb;
+     border-bottom: 4px solid #ae6e4a;
+}
+.navigationbar .navbar-default .navbar-nav>li:last-of-type>a
+{
+    border-left: 0;
+}
+.navigationbar .navbar-default .navbar-nav>li>a i
+{
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 28px;
+}
+.navigationbar .navbar-default .navbar-nav>li>a:hover,
+.navigationbar .navbar-default .navbar-nav>li>a:focus
+{
+    background: white;
+    color: #ae6e4a;
+}
+.navigationbar .navbar-default .navbar-brand>img
+{
+    margin-top: -55px;
+}
+.navigationbar .navbar-default .navbar-collapse
+{
+    margin-top: 65px;
+}
+
+/* slider */
+
+.bokharti-slider
+{
+    margin-top: -125px;
+}
+.bokharti-slider .carousel-inner .container
+{
+    position: relative;
+}
+.bokharti-slider .carousel-inner .container .slide-caption
+{
+    position: absolute;
+    bottom: 10px;
+}
+/* product-section */
+
+.product-section .samples .item 
+{
+    margin: 5px;
+}
+.product-section .samples .item img
+{
+    width: 100%;
+    height: 200px;
+}
+.product-section .samples .item h3
+{
+    margin-top: 10px;
+    color: #545453;
+    font-weight: bold;
+    font-size: 21px;
+}
+.product-section .samples .item p
+{
+    color: #7a3c07;
+    font-weight: bold;
+}
+.product-section .samples .item .btn
+{
+    background: #7a3c07;
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 0;
+}
+.product-section .samples .slick-next:before,
+.product-section .samples .slick-prev:before
+{
+    color: #7a3c07;
+}
+.product-section h1
+{
+    text-shadow: 0 0 3px black;
+}
+/* start-welcome-site */
+
+.welcome-site
+{
+    margin: 20px auto;
+    background: #eaeef1;
+}
+.welcome-site .welcome-text
+{
+    position: relative;
+    background: url(../images/welcome-bg.png) no-repeat right center;
+    margin-right: -100px;
+}
+
+.welcome-site .welcome-text a img
+{
+    height: 50px;
+    margin-top: 5px;
+}
+.welcome-site .welcome-text p
+{
+    position: relative;
+    text-align: justify;
+    margin: 4em 12.5em 0 0;
+}

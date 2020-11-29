@@ -1,0 +1,99 @@
+@media(max-width:1199px)
+{
+    .welcome-site 
+    {
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+    .welcome-site .welcome-text p
+    {
+        margin-top: 1em;
+    }
+}
+@media(max-width:991px)
+{
+     .welcome-site .welcome-text
+    {
+        background: unset;
+        margin-right: 0;
+    }
+    .welcome-site .welcome-text img
+    {
+        margin: auto;
+    }
+    .welcome-site .welcome-text p
+    {
+        margin: auto;
+    }
+}
+
+@media(max-width:767px)
+{
+    .bokharti-slider
+    {
+        margin-top: 0;
+    }
+    .navigationbar .navbar-default .navbar-brand
+    {
+        float: left;
+    }
+    .navigationbar .navbar-default .navbar-toggle
+    {
+        float: right;
+    }
+    .navigationbar .navbar-default .navbar-header
+    {
+        float: unset;
+    }
+    .navigationbar .navbar-default .navbar-nav>li:last-of-type>a
+    {
+        border-left: 1px solid #e7e7e7;
+    }
+    .navigationbar .navbar-default .navbar-collapse
+    {
+        margin-top: 30px;
+    }
+    .navigationbar .navbar-default ul li>a
+    {
+        border-right: 1px solid #e7e7e7;
+    }
+    .navigationbar .navbar-default ul li
+    {
+        display: inline-block;
+        text-align: center;
+    }
+    .bokharti-slider .carousel-inner>.item>a>img, .carousel-inner>.item>img
+    {
+        height: 300px;
+    }
+    .bokharti-slider .carousel-inner .container .slide-caption img
+    {
+        height: 90px;
+    }
+    .page-content .shopping .cart
+    {
+        display: block;
+    }
+    .page-content .shopping .cart:last-of-type
+    {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:576px)
+{
+    .navigationbar .navbar-default .navbar-brand>img
+    {
+        height: 70px;
+        margin-top: -27px;
+    }
+    header
+    {
+        text-align: center;
+    }
+    .page-content .job-data .form-control
+    {
+        width: 100%;
+    }
+}
